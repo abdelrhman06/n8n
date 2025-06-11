@@ -6,7 +6,7 @@ services:
     plan: free
     envVars:
       - key: DB_TYPE
-        value: postgres
+        value: postgresdb
       - key: DB_POSTGRESDB_HOST
         value: ep-soft-sky-a806j8xn.eastus2.azure.neon.tech
       - key: DB_POSTGRESDB_PORT
