@@ -7,29 +7,42 @@ services:
     envVars:
       - key: DB_TYPE
         value: postgresdb
+
       - key: DB_POSTGRESDB_HOST
         value: ep-soft-sky-a806j8xn.eastus2.azure.neon.tech
+
       - key: DB_POSTGRESDB_PORT
         value: "5432"
+
       - key: DB_POSTGRESDB_DATABASE
         value: neondb
+
       - key: DB_POSTGRESDB_USER
         value: neondb_owner
+
       - key: DB_POSTGRESDB_PASSWORD
         value: npg_JY2Fn0AyMjxN
+
       - key: DB_POSTGRESDB_SSL
         value: "true"
+
+      - key: DB_POSTGRESDB_SSL_REJECT_UNAUTHORIZED
+        value: "false"
+
       - key: N8N_BASIC_AUTH_ACTIVE
         value: "true"
+        
       - key: N8N_BASIC_AUTH_USER
         value: admin
+
       - key: N8N_BASIC_AUTH_PASSWORD
         value: password147852
+
       - key: WEBHOOK_URL
-        value: https://n8n-xxxx.onrender.com
+        value: https://n8n-q6w9.onrender.com
+
       - key: N8N_ENFORCE_SETTINGS_FILE_PERMISSIONS
         value: "true"
-			- key: N8N_RUNNERS_ENABLED
-         value: "true"
 
-
+      - key: N8N_RUNNERS_ENABLED
+        value: "true"
