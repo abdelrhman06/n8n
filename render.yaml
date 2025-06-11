@@ -13,3 +13,17 @@ services:
         value: password147852
       - key: WEBHOOK_URL
         value: https://n8n-abdelrhman06.onrender.com
+      - key: DB_TYPE
+        value: postgresdb
+      - key: DB_POSTGRESDB_HOST
+        value: ep-soft-sky-a806j8xn-pooler.eastus2.azure.neon.tech
+      - key: DB_POSTGRESDB_PORT
+        value: "5432"
+      - key: DB_POSTGRESDB_DATABASE
+        value: neondb
+      - key: DB_POSTGRESDB_USER
+        value: neondb_owner
+      - key: DB_POSTGRESDB_PASSWORD
+        value: npg_JY2Fn0AyMjxN
+      - key: DB_POSTGRESDB_SSL
+        value: "true"
