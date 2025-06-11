@@ -12,7 +12,7 @@ services:
       - key: N8N_BASIC_AUTH_PASSWORD
         value: password147852
       - key: WEBHOOK_URL
-        value: https://n8n-abdelrhman06.onrender.com
+        value: https://n8n-x4ov.onrender.com
       - key: DB_TYPE
         value: postgresdb
       - key: DB_POSTGRESDB_HOST
